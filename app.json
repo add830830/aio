@@ -1,0 +1,81 @@
+{
+  "name": "All-In-One Telegram Bot",
+  "description": "Open Source All-In-One Telegram Bot.",
+  "keywords": [
+    "telegram",
+    "best",
+    "youtube",
+    "downloader",
+    "open",
+    "source",
+    "multi",
+    "purpose",
+    "ffmpeg",
+    "remote",
+    "uploader"
+  ],
+  "success_url": "https://t.me/Add830830",
+  "website": "https://github.com/Add830830",
+  "repository": "https://github.com/Add830830",
+  "env": {
+    "WEBHOOK": {
+      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+      "value": "ANYTHING"
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Your Bot Token (as a string). Get This Value From T.me/Botfather",
+      "value": ""
+    },
+    "CHAT_BASE_TOKEN": {
+      "description": "Your Chat Base Token, as a string.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Get This Value From https://my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": ""
+    },
+    "AUTH_USERS": {
+      "description": "Allow Only Pre-defined Users To Use This Bot",
+      "value": ""
+    },
+    "BANNED_USERS": {
+      "description": "Banned Unwanted members",
+      "value": "",
+      "required": false
+    },
+    "DEF_THUMB_NAIL_VID_S": {
+      "description": "Default Thumbnail To Be Used In The Videos. Incase, Youtube-dl Is Unable To Find A Thumbnail.",
+      "value": "",
+      "required": false
+    },
+    "CHUNK_SIZE": {
+      "description": "Chunk Size That Should Be Used With Requests",
+      "value": "",
+      "required": false
+    },
+    "HTTP_PROXY": {
+      "description": "Get Your Own Proxy From is.gd/proxy",
+      "value": "",
+      "required": false
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+  }, {
+    "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
