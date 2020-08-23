@@ -1,12 +1,11 @@
 Open Source All-In-One Telegram Bot.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
-### Available Command
-<details>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)<details>
 <summary>
-Click Here To Check
+Available Command (Click Here To Check)
 </summary>
+
+```
 start - Check if the Bot is Online!
 help - How to use this Bot?
 me - Check Your Subscription
@@ -23,18 +22,5 @@ storageinfo - Get Info about currently saved Files
 clearffmpegmedia - Clear stored media from Telegram
 generatecustomthumbnail - Generate customer thumbnail
 generatescss - Get Screenshot of Telegram Media
-</details>
-<details>
-<summary>
-Example use (click here to expand):
-</summary>
-
-```
-
-options = {
-  data_store: nil
-}
-registers_client.get_register('country', 'beta', options)
-
 ```
 </details>
