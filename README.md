@@ -3,7 +3,7 @@ Open Source All-In-One Telegram Bot.
 [] [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Available Command
-<summary> Click Here To Check </summary>
+<details><summary> Click Here To Check </summary>
 - start - Check if the Bot is Online!
 - help - How to use this Bot?
 - me - Check Your Subscription
@@ -20,3 +20,4 @@ Open Source All-In-One Telegram Bot.
 - clearffmpegmedia - Clear stored media from Telegram
 - generatecustomthumbnail - Generate customer thumbnail
 - generatescss - Get Screenshot of Telegram Media
+</details>
