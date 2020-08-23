@@ -24,7 +24,7 @@ clearffmpegmedia - Clear stored media from Telegram
 generatecustomthumbnail - Generate customer thumbnail
 generatescss - Get Screenshot of Telegram Media
 </details>
-
+<details>
 <summary>
 Example use (click here to expand):
 </summary>
