@@ -3,7 +3,7 @@ Open Source All-In-One Telegram Bot.
 [] [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 ### Available Command
-<Summary> Click Here To Check </Summary>
+<summary> Click Here To Check </summary>
 - start - Check if the Bot is Online!
 - help - How to use this Bot?
 - me - Check Your Subscription
