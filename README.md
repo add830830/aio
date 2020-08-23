@@ -15,7 +15,7 @@ cp sample_config.py config.py
 python bot.py
 ```
 ### Available Command
-<Summary>Click Here To Check</Summary>
+<Summary> Click Here To Check </Summary>
 - start - Check if the Bot is Online!
 - help - How to use this Bot?
 - me - Check Your Subscription
