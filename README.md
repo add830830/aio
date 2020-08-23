@@ -24,3 +24,17 @@ clearffmpegmedia - Clear stored media from Telegram
 generatecustomthumbnail - Generate customer thumbnail
 generatescss - Get Screenshot of Telegram Media
 </details>
+
+<summary>
+Example use (click here to expand):
+</summary>
+
+```
+
+options = {
+  data_store: nil
+}
+registers_client.get_register('country', 'beta', options)
+
+```
+</details>
