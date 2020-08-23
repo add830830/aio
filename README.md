@@ -1,6 +1,8 @@
 Open Source All-In-One Telegram Bot.
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)<details>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+<details>
 <summary>
 Available Command (Click Here To Check)
 </summary>
