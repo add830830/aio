@@ -26,9 +26,3 @@ generatecustomthumbnail - Generate customer thumbnail
 generatescss - Get Screenshot of Telegram Media
 ```
 </details>
-
-
-- [Installation](#installation)
-  * [`RegisterClientManager`](#registerclientmanager)
-    + [EntryCollection](#entrycollection)
-    + Ec
